@@ -1,0 +1,62 @@
+.one{
+    width:84em;
+    height:35em;
+    margin-right:84em;
+    margin-top:1em;
+    background-color:whitesmoke;
+    background-image:url('images/R.frontpage.jpeg');
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-size:84em 35em;
+}
+.start{
+    font-size:15em;
+    color: whitesmoke;
+}
+a{
+    color: black;
+}
+h2{
+    font-size: 3em;
+    color: whitesmoke;
+}
+.two{
+    width:84em;
+    height:30em;
+    margin-top:2em;
+}
+.three{
+    width:84em;
+    height:40em;
+    margin-top:2em;
+    margin-right:2em;
+    background-image:url('images/R.background.jpeg');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size:83em 38em;
+}
+
+.five{
+    width:84.5em;
+    height:30em;
+    margin-top:2em;
+}
+.text-center{
+    color:black;
+    font-size:7.5em;
+}
+.newsletter{
+    color:black;
+}
+.container{
+    margin-top:2em;
+}
+.form-label,.newsletter,h4{
+    color:black
+}
+.heading{
+    color:whitesmoke;
+    font-size:6em;
+    border-radius:2em;
+    border-color: black;
+}

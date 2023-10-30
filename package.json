@@ -1,40 +1,293 @@
 {
-  "name": "javascript-fetch-lab",
-  "version": "0.1.0",
-  "description": "Try out fetch() skills on Learn",
-  "main": "index.js",
-  "scripts": {
-    "debug-ide": "./bin/debug-ide",
-    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-fetch-lab.git"
-  },
-  "keywords": [
-    "javascript",
-    "flatiron",
-    "learn"
+  "newlisting":[
+    {
+       "Name":"Hawthorn House",
+       "Rating":8.8,
+       "price":1000000,
+       "Description":"A charming house surrounded by hawthorn trees",
+       "Location":"BOCA RANTON,FL"
+    },
+    {
+       "Name":"Birchwood Ranch",
+       "Rating":6.9,
+       "price":600000,
+       "Description":"A comfortable ranch amidst birchwood forests.",
+       "Location":"BOCA RANTON,FL"
+    },
+    {
+       "Name":"Mountain View Mansion",
+       "Rating":8.9,
+       "price":4000000,
+       "Description":"A grand mansion with panoramic mountain views.",
+       "Location":"BOCA RANTON,FL"
+   },
+   {
+       "Name":"Lavender Fields Mansion",
+       "Rating":8.8,
+       "price":900000,
+       "Description":"A grand mansion near lavender-filled fields.",
+       "Location":"BOCA RANTON,FL"
+   },
+   {
+       "Name":"Emerald Isle Villa",
+       "Rating":9.0,
+       "price":7000000,
+       "Description":"A luxurious villa on a vibrant, emerald-green isle.",
+       "Location":"BOCA RANTON,FL"
+   },
+   {
+       "Name":"Silverlake Chalet",
+       "Rating":5.6,
+       "price":500000,
+       "Description":"A chalet by the shores of a shimmering silver lake.",
+       "Location":"BOCA RANTON,FL"
+   },
+   {
+       "Name":"Orchid Oasis: ",
+       "Rating":7.3,
+       "price":800000,
+       "Description":"A luxurious oasis with vibrant orchid gardens.",
+       "Location":"BOCA RANTON,FL"
+   },
+   {
+       "Name":"Lavender Lane House",
+       "Rating":5.5,
+       "price":200000,
+       "Description":"A charming house on a peaceful lavender-lined lane.",
+       "Location":"BOCA RANTON,FL"
+   },
+   {
+       "Name":"Seaside Villa:",
+       "Rating":9.0,
+       "price":10000000,
+       "Description":"A coastal villa with easy access to the sea.",
+       "Location":"BOCA RANTON,FL"
+   }
   ],
-  "author": "pletcher",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "bugs": {
-    "url": "https://github.com/learn-co-curriculum/java-script-fetch-lab/issues"
-  },
-  "homepage": "https://github.com/learn-co-curriculum/java-script-fetch-lab#readme",
-  "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-preset-env": "1.7.0",
-    "chai": "4.1.2",
-    "chai-spies": "^1.0.0",
-    "expect": "^1.20.2",
-    "jsdom": "9.2.1",
-    "json-server": "^0.14.2",
-    "mocha": "5.2.0",
-    "mocha-jsdom": "~1.1.0",
-    "mocha-multi": "1.0.1",
-    "node-fetch": "^2.6.1",
-    "sinon": "^7.2.3",
-    "sinon-stub-promise": "^4.0.0"
-  }
-}
+
+  "pricereduced":[
+     {
+       "name":"Riverside Rendezvous Chale",
+       "rating":5.4,
+       "price":300000,
+       "Description":"A chalet by the riverside for tranquil rendezvous",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Pinecone Paradise Chalet",
+       "rating":5.7,
+       "price":270000,
+       "Description":"A chalet in a paradise adorned with pinecones",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Redwood Ridge Chalet",
+       "rating":5.0,
+       "price":250000,
+       "Description":"A chalet perched high on a ridge of towering redwoods.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Royal Oak Residence",
+       "rating":5.1,
+       "price":222000,
+       "Description":"A regal residence surrounded by ancient oak trees.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Riverbend Residence",
+       "rating":5.1,
+       "price":222000,
+       "Description":"A comfortable residence along a gentle riverbend.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Sunset Haven",
+       "rating":5.9,
+       "price":350000,
+       "Description":"A welcoming home with breathtaking sunset views",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Birchwood Ranch",
+       "rating":5.7,
+       "price":290000,
+       "Description":"A comfortable ranch amidst birchwood forests",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Lavender Lullaby Cottage",
+       "rating":6.0,
+       "price":390000,
+       "Description":"A cottage where lavender lullabies soothe.",
+       "Location":"BOCA RANTON,FL"
+     }   
+   ],
+
+   "open houses":[
+       {
+           "name":"Sunflower Fields Villa",
+           "rating":7.9,
+           "price":40000000,
+           "Description":"A retreat amidst fields of bright sunflowers",
+           "Location":"BOCA RANTON,FL"
+       },
+       {
+           "name":"Sun-Kissed Shores Villa",
+           "rating":7.8,
+           "price":40000000,
+           "Description":"A villa with shores kissed by warm sunlight.",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Lakeside Serenity Villa",
+           "rating":8.4,
+           "price":60000000,
+           "Description":"A serene villa on the calm shores of a lake.",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Velvet Valley Villa",
+           "rating":8.6,
+           "price":55000000,
+           "Description":"A villa in a valley soft as velvet",
+           "Location":"BOCA RANTON,FL"
+         }    
+   ],
+   "newconstruction":[
+       {
+           "name":"Redwood Retreat",
+           "rating":6.6,
+           "price":390000,
+           "Description":"A cozy retreat nestled amidst towering redwoods.",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Ivywood Villa",
+           "rating":6.4,
+           "price":356000,
+           "Description":"An opulent villa draped in vibrant ivy.",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Rosewood Villa",
+           "rating":6.1,
+           "price":290000,
+           "Description":"An elegant villa with lush rose gardens",
+           "Location":"BOCA RANTON,FL"
+         }
+         
+                    
+   ],
+   "newhomecommunities":[
+       {
+           "name":"Meadowview Mansion",
+           "rating":7.9,
+           "price":25000000,
+           "Description":"",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Oceanfront Oasis Mansion",
+           "rating":7.9,
+           "price":25000000,
+           "Description":"A grand mansion on an oceanfront oasis",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Forest's Edge Villa",
+           "rating":8.7,
+           "price":50000000,
+           "Description":"A villa at the edge of the tranquil fores",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Mountain Majesty Villa",
+           "rating":8.4,
+           "price":42000000,
+           "Description":"A villa with views of majestic mountains",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Lavender Lane Villa",
+           "rating":8.2,
+           "price":40000000,
+           "Description":"A villa on a peaceful lane lined with lavender",
+           "Location":"BOCA RANTON,FL"
+         },
+         {
+           "name":"Jasmine Dreams Villa",
+           "rating":7.7,
+           "price":20000000,
+           "Description":"A villa where dreams bloom with fragrant jasmine",
+           "Location":"BOCA RANTON,FL"
+         }          
+   ],
+   "land":[
+     {
+       "name":"Bluebell Meadow",
+       "rating":4.5,
+       "price":200000,
+       "Description":"A meadow painted blue with blossoming bluebells.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Cedar Canyon",
+       "rating":4.2,
+       "price":189000,
+       "Description":" A narrow valley flanked by aromatic cedar trees",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Tranquil Meadowlands",
+       "rating":4.0,
+       "price":150000,
+       "Description":"Vast open meadows with a serene ambiance.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Maplewood Grove",
+       "rating":4.4,
+       "price":192000,
+       "Description":"A dense forest of majestic maple trees",
+       "Location":"BOCA RANTON,FL"
+     }
+   ],
+   "foreclosure":[
+     {
+       "name":"Daisy Delight Villa",
+       "rating":9.0,
+       "price":250000000,
+       "Description":"A villa in delightful gardens filled with daisies.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Pinehill Oasis Mansion",
+       "rating":8.5,
+       "price":14000000,
+       "Description":"A grand mansion in a pine-covered hillside oasis",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Tranquil Twilight Mansion",
+       "rating":8.5,
+       "price":15000000,
+       "Description":"A grand mansion where twilight brings calm",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Azure Waterside Villa",
+       "rating":8.7,
+       "price":50000000,
+       "Description":"A villa by waters reflecting a clear azure.",
+       "Location":"BOCA RANTON,FL"
+     },
+     {
+       "name":"Riverside Rendezvous Villa",
+       "rating":8.8,
+       "price":250000000,
+       "Description":"A villa by the riverside for special rendezvous",
+       "Location":"BOCA RANTON,FL"
+     }
+   ]
+}   
